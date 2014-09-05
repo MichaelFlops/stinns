@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Stinns</title>
 
@@ -13,47 +15,124 @@
     <link href="stylesheets/bootstrap.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
-    <link href="stylesheets/stylish-portfolio.css" rel="stylesheet">
+    <link href="stylesheets/freelancer.css" rel="stylesheet">
 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 </head>
 
-<body>
+<body id="page-top" class="index">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><i>Stinns AutoHaus</i></a>
+            </div>
 
-
-    <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-danger btn-lg toggle"><i class="fa fa-bars">Click here Dummy</i></a>
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand"><a href="http://metacupcake.com">Stinns</a>
-            </li>
-            <li><a href="/">Home</a>
-            </li>
-            <li><a href="/terms">Contact</a>
-            </li>
-            <li><a href="#portfolio">Services</a>
-            </li>
-            <li><a href="#coming-soon">Customers</a>
-            </li>
-            <li><a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /Side Menu -->
-
-    <!-- Full Page Image Header Area -->
-    <div id="top" class="header">
-        <div class="vert-text">
-            <br>
-            <h1></h1>
-            <h3>
-                <em></em>
-                <em></em></h3>
-            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Our Work</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#location">Location</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+       <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/top.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead">Experts in European car repair</p>
+              <a class="btn btn-large btn-primary" href="#portfolio">Our Work</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/boschetop.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+<!--               <p class="lead">Transmission Flush Service</p>
+              <p>Extend the life of your baby</p> -->
+              <a class="btn btn-large btn-primary" href="http://www.bosch.us/en/us/startpage_1/country-landingpage.php">Bosche Certified Technicians</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/top2.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p class="lead">Family owned and operated, Stinns is the best place on the Central Coast for European Car Repair</p>
+              <a class="btn btn-large btn-primary" href="https://www.facebook.com/STINNSAUTOHAUS?fref=ts">Check out our Facebook page</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="http://getbootstrap.com/2.3.2/examples/carousel.html#myCarousel" data-slide="prev">‹</a>
+      <a class="right carousel-control" href="http://getbootstrap.com/2.3.2/examples/carousel.html#myCarousel" data-slide="next">›</a>
+    </div><!-- /.carousel -->
+
+        <!-- About Section -->
+    <section class="inverse" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Family owned and operated, Stinns AutoHaus has already built an amazing reputation since it's inception in March of 2012 in the city of Santa Maria, CA.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Jerry and his wife Yvonne run a small team of mechanics that are always extremely helpful and easy to speak with. </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="http://www.yelp.com/biz/stinns-autohaus-santa-maria" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Reviews
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- /Full Page Image Header Area -->
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
@@ -61,7 +140,7 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>We Specialize in European Vehicles</h2>
+                    <p>We Specialize in European Vehicles</p>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-2 col-sm-6">
@@ -70,12 +149,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
-                            <img src="images/audi.jpg" alt="Audi">
-                                <h4>
-                                    <strong>Audi</strong>
-                                </h4>
-                                <p>Flush before you brush.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src="img/audi.jpg" alt="Audi">
+                                <p>Audi</p>
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6">
@@ -84,12 +159,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
-                            <img src="images/bmw.jpg" alt="">
-                                <h4>
-                                    <strong>BMW</strong>
-                                </h4>
-                                <p>We fix yo shit for cheap $$</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src="img/bmw.jpg" alt="">
+                                <p>BMW</p>
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6">
@@ -98,12 +169,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-flask fa-stack-1x text-primary"></i>
                             </span>
-                            <img src="images/mercedes.jpg" alt="">
-                                <h4>
-                                    <strong>Mercedes-Benz</strong>
-                                </h4>
-                                <p></p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src="img/mercedes.jpg" alt="">
+                            <p>Mercedes</p>
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6">
@@ -112,12 +179,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
-                            <img src ="images/porsche.jpg" alt="">
-                                <h4>
-                                    <strong>Porsche</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src ="img/porsche.jpg" alt="">
+                            <p>Porsche</p>
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6">
@@ -126,12 +189,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
-                            <img src ="images/volvo.jpg" alt="">
-                                <h4>
-                                    <strong>Volvo</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src ="img/volvo.jpg" alt="">
+                            <p>Volvo</p>
                             </div>
                         </div> 
                         <div class="col-md-2 col-sm-6">
@@ -140,12 +199,8 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
-                            <img src ="images/porsche.jpg" alt="">
-                                <h4>
-                                    <strong>VW</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                            <img src ="img/vwlogo.jpg" alt="">
+                            <p>VW</p>
                             </div>
                         </div>                                               
                     </div>
@@ -158,114 +213,417 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1></h1>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>We Take Pride in Our Work.</h3>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bossman.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/jim.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/starvw.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/mini.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/van.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/whitecar.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3270.438606262144!2d-120.43204600000001!3d34.945614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ec6c83c791c6f9%3A0xa6831f4fab5dc19!2sStinn&#39;s+AutoHaus!5e0!3m2!1sen!2sus!4v1409403742699"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-        </iframe>
     </section>
 
-      <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Stinns</strong>
-                    </h4>
-                    <p>3481 Melrose Place<br>Santa Maria, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+ <!-- START THE FEATURETTES -->
+    <section id = "location">
+      <hr class="featurette-divider">
 
-<!--   
+      <div class="featurette">
+        <div class="featurette-image pull-right"> 
+        <h2 class="featurette-heading">Find <span class="muted">Us.</span></h2>
+        <br>
+        <p class="lead">Located close to Allan Hancock College<br> and the Paul Nelson Pool</p>
+      </div>
 
-    <footer id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <a href="http://www.youtube.com/channel/UCpuxvY_WEGAPEvB771-MsfA/videos"><img src="images/youtube.png"></a>
-                    <a href="https://www.facebook.com/michael.william.betts"><img src="images/facebook-128.png"></a>
-                    <a href="https://soundcloud.com/metacupcake"><img src="images/soundcloud-128.png"></a>
-                    <a href="https://twitter.com/Michaelflops"><img src="images/twitter-3-128.png"></a>
-                    <a href="mailto:mwbetts@ucsc.edu"><img src="images/brain-128.png"></a>
-                    <a href="mailto:mwbetts@ucsc.edu"><img src="images/woman-128.png"></a>
 
-                    <div class="top-scroll">
-                        <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+    <div class="featurette">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3270.438606262144!2d-120.43204600000001!3d34.945614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6831f4fab5dc19!2sStinn&#39;s+AutoHaus!5e0!3m2!1sen!2sus!4v1409947805961" width="700" height="700" frameborder="0" style="border:0"></iframe>
+    </div>
+    <!-- Footer -->
+    <section id = "contact">
+    </section>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <p>Location</p>
+                        <p>705 S Miller <br>Santa Maria, CA 93454</p>
+                        <p>stinnsautohaus@verizon.net</p>
                     </div>
-                    <hr>
-                    <p>(no)Copyright &copy; Metacupcake 2013</p>
+                    <div class="footer-col col-md-4">
+                        <p>Around the Web</p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/STINNSAUTOHAUS?fref=ts"><img src="img/facebooklogo.ico" height="50px" width="50px"></a>
+                            </li>
+                            <li>
+                                <a href="http://www.yelp.com/biz/stinns-autohaus-santa-maria"><img src="img/yelp.png" height="50px" width="50px"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <p>Fax:(805) 614 -7889 </p>
+                        <p>(805) 614-7888</p>
+                        <p> Mon - Fri 7AM - 5:30PM </p>
+                        <p> Sat by appointment </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Stinnsautohaus 2014
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
-     -->
 
-    <!-- JavaScript -->
-    <script src="javascripts/jquery-1.10.2.js"></script>
-    <script src="javascripts/bootstrap.js"></script>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
 
-    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-    <script>
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    </script>
-    <script>
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2>Project Title</h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/bossman.jpg" class="img-responsive img-centered" alt="">
+                            <p>Jerry working on a transmission for a customer. What a hard worker!</p>
+<!--                             <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2></h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/jim.jpg" class="img-responsive img-centered" alt="">
+                            <p>Jim working hard on a Mercedes.</p>
+                            <ul class="list-inline item-details">
+<!--                                 <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2>Project Title</h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/starvw.jpg" class="img-responsive img-centered" alt="">
+                            <p>We do anything aircooled as well!</p>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                             --><button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2>Project Title</h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/mini.jpg" class="img-responsive img-centered" alt="">
+                            <p>Master Surgery performed by Jim on a Mini Cooper</p>
+                           <!--  <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2>Project Title</h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/van.jpg" class="img-responsive img-centered" alt="">
+                            <p>These guys know VW Buses like the back of their wife's hand</p>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- <h2>Project Title</h2> -->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/whitecar.jpg" class="img-responsive img-centered" alt="">
+                            <p> A Mercedes gets a loving service. </p>
+                          <!--   <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Stinn</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                           -->  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+     <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Carousel Template · Bootstrap_files/jquery.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-transition.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-alert.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-modal.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-dropdown.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-scrollspy.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-tab.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-tooltip.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-popover.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-button.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-collapse.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-carousel.js"></script>
+    <script src="./Carousel Template · Bootstrap_files/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
     </script>
+    <script src="./Carousel Template · Bootstrap_files/holder.js"></script>
+  
 
 </body>
+
+
+
+
 
 </html>

@@ -34,29 +34,6 @@ app.get('/', function (req, res)
     res.render('index.html');
 });
 
-app.get('/hacks', function (req, res)
-{
-    res.render('hacks.html');
-});
-app.get('/chessy', function (req, res)
-{
-    res.render('chessy.html');
-});
-
-app.get('/terms', function (req, res)
-{
-    res.render('terms.html');
-});
-app.get('/cute', function (req, res)
-{
-    res.render('cute.html');
-});
-
-app.get('/contributors', function (req, res)
-{
-    res.render('contributors.html');
-});
-
 /*
 app.use('/', routes.index);
 app.use('/hacks', hacks);
