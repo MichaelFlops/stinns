@@ -34,6 +34,21 @@ app.get('/', function (req, res)
     res.render('index.html');
 });
 
+app.get('/robots', function (req, res)
+{
+    res.render('robots.txt');
+});
+
+
+app.use(function (req, res, next) {
+    if ('/robots.txt' == req.url) {
+        res.type('text/plain')
+        res.send("User-agent: *\nDisallow: /");
+    } else {
+        next();
+    }
+});
+
 /*
 app.use('/', routes.index);
 app.use('/hacks', hacks);
