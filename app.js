@@ -44,14 +44,14 @@ app.get('/sitemap', function (req, res)
 });
 
 
-// app.use(function (req, res, next) {
-//     if ('/robots.txt' == req.url) {
-//         res.type('text/plain')
-//         res.send("User-agent: *\nDisallow:");
-//     } else {
-//         next();
-//     }
-// });
+app.use(function (req, res, next) {
+    if ('/robots.txt' == req.url) {
+        res.type('text/plain')
+        res.send("User-agent: *\nDisallow:");
+    } else {
+        next();
+    }
+});
 
 // app.use(function (req, res, next) {
 //     // body...
