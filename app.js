@@ -40,24 +40,28 @@ app.get('/robots', function (req, res)
 
 app.get('/sitemap', function (req, res)
 {
-    res.render('sitemap.xml');
+    res.sendFile('sitemap.xml');
 });
 
 
-app.use(function (req, res, next) {
-    if ('/robots.txt' == req.url) {
-        res.type('text/plain')
-        res.send("User-agent: *\nDisallow:");
-    } else {
-        next();
-    }
-});
+// app.use(function (req, res, next) {
+//     if ('/robots.txt' == req.url) {
+//         res.type('text/plain')
+//         res.send("User-agent: *\nDisallow:");
+//     } else {
+//         next();
+//     }
+// });
 
-/*
-app.use('/', routes.index);
-app.use('/hacks', hacks);
-app.use('/users', users);
-*/
+// app.use(function (req, res, next) {
+//     // body...
+//     if ('sitemap.xml' == req.url) {
+//         res.type('xml');
+//         res.send('sitemap.xml');
+//     } else {
+//         next();
+//     }
+// });
 
 
 /// catch 404 and forward to error handler
