@@ -38,6 +38,11 @@ app.get('/robots', function (req, res)
     res.render('robots.txt');
 });
 
+app.get('/sitemap', function (req, res)
+{
+    res.render('sitemap.xml');
+});
+
 
 app.use(function (req, res, next) {
     if ('/robots.txt' == req.url) {
