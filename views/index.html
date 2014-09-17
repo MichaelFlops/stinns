@@ -36,6 +36,39 @@
       ga('create', 'UA-54609105-1', 'auto');
       ga('send', 'pageview');
     </script>
+    <style type="text/css">
+         /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      padding-left: 60px;
+      padding-right: 60px;
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+    </style>
 </head>
 
 <body id="page-top" class="index">
@@ -83,8 +116,8 @@
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
-        <div class="item">
-          <img src="img/stinns-mechanic-shop-inside.jpg" alt="Photo of the German European shop">
+        <div class="item active">
+          <img src="img/bosch-german-car.jpg" alt="Photo of the front of Stinn's shop" width="100%">
           <div class="container">
             <div class="carousel-caption">
               <h1></h1>
@@ -93,8 +126,8 @@
             </div>
           </div>
         </div>
-        <div class="item active">
-          <img src="img/bosch-german-car.jpg" alt="Bosch Certified Technicians">
+        <div class="item">
+          <img src="img/stinns-shop-1.jpg" alt="Bosch Certified Technicians" width="100%">
           <div class="container">
             <div class="carousel-caption">
               <h1></h1>
@@ -106,7 +139,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="img/stinns-mechanic-shop-outside.jpg" alt="Mechanic Shop Stinn's Autohaus">
+          <img src="img/stinns-shop.jpg" alt="Mechanic Shop Stinn's Autohaus" width="100%">
           <div class="container">
             <div class="carousel-caption">
               <h1></h1>
@@ -226,6 +259,38 @@
         <!-- /.container -->
     </section>
 
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="img/jerry-stinn-shop.jpg">
+        <h2 class="featurette-heading">Hi, I'm Jerry</h2>
+        <p class="lead">I've been working on cars my whole life. Over the years, I've seen some scoundral mechanics get away with murder. Ask me, I'll tell you about it. That's why I opened my own shop. I believe in quality, integrity, and honesty. That's how I run my shop.</p>
+        <p class="lead"> We run an open and honest shop. I will take you inside your car and explain what is happening with your vehicle. Trust me, I've been known to over explain things.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="img/stinns-fancy-cars.jpg">
+        <h2 class="featurette-heading">We take good care of you vehicles.</h2>
+        <p class="lead">We treat every vehicle kindly, whether it's a beater that you need to get around town with, or your dream car. We specialize in latest model, as well as vintage, Mercedes, BWM, porsche, Audi, and Volkswagon.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="img/stinns-family-mechanic.jpg">
+        <h2 class="featurette-heading">And lastly, <span class="muted">We love what we do.</span></h2>
+        <p class="lead">We work hard in our shop. We stick together. We are honest, and always do a quality job the correct way-the first time</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
@@ -263,7 +328,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/starvw.jpg" class="img-responsive" alt="VW Bug on the lift">
+                        <img src="img/portfolio/porsche-classic-car.jpg" class="img-responsive" alt="Porsche">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -293,31 +358,25 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/mercedes-european-car-repair.jpg" class="img-responsive" alt=" European Mercedes getting car service">
+                        <img src="img/portfolio/mercedes-european-car.jpg" class="img-responsive" alt=" European Mercedes getting car service">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
- <!-- START THE FEATURETTES -->
+
+        <!-- - - - - - - - -  Featurette for the map - - - - - - - - - - -  -->
     <section id = "location">
-      <hr class="featurette-divider">
-
       <div class="featurette">
-        <div class="featurette-image pull-right"> 
-        <h2 class="featurette-heading">Find <span class="muted">Us.</span></h2>
-        <br>
-        <p class="lead">Located close to Allan Hancock College<br> and the Paul Nelson Pool</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3270.438606262144!2d-120.43204600000001!3d34.945614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6831f4fab5dc19!2sStinn&#39;s+AutoHaus!5e0!3m2!1sen!2sus!4v1409947805961" width="500" height="500" frameborder="0" style="border:0" class="pull-left"></iframe>
+        <h2 class="featurette-heading">Find <span class ="muted">Us.</span></h2>
+        <p class="lead">Located in a central part of town, close to Allan Hancock College, the train station, the Santa Maria Public Library, the Police Station, and the Mall.</p>
       </div>
+    </section> 
 
-
-    <div class="featurette">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3270.438606262144!2d-120.43204600000001!3d34.945614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6831f4fab5dc19!2sStinn&#39;s+AutoHaus!5e0!3m2!1sen!2sus!4v1409947805961" width="700" height="500" frameborder="0" style="border:0"></iframe>
-    </div>
     <!-- Footer -->
-    <section id = "contact">
-    </section>
+    <section id = "contact"></section>
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
@@ -325,6 +384,7 @@
                     <div class="footer-col col-md-4">
                         <p>Location</p>
                         <p>705 S Miller <br>Santa Maria, CA 93454</p>
+                        <p>Fax:(805) 614 -7889 </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <p>Around the Web</p>
@@ -338,7 +398,6 @@
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <p>Fax:(805) 614 -7889 </p>
                         <p>(805) 614-7888</p>
                         <p> Mon - Fri 7AM - 5:30PM </p>
                         <p> Sat by appointment </p>
@@ -631,6 +690,5 @@
       }(window.jQuery)
     </script>
     <script src="./Carousel Template · Bootstrap_files/holder.js"></script>
-
 </body>
 </html>
